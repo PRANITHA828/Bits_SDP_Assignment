@@ -1,0 +1,73 @@
+GIT COMMANDS AND EXPLANATIONS
+
+1. git --version
+   Checks whether Git is installed and displays its version.
+
+2. git init
+   Initializes a new local Git repository in the project folder.
+
+3. git branch -M main
+   Renames the current branch to main.
+
+4. git config --global user.name "Your Name"
+   Configures the username used to identify commits.
+
+5. git config --global user.email "your-email@example.com"
+   Configures the email address associated with commits.
+
+6. git status
+   Displays the current repository status and modified or untracked files.
+
+7. git add .
+   Adds all eligible changes in the project to the staging area.
+
+8. git add index.html
+   Adds the specified file to the staging area.
+
+9. git commit -m "Initial commit: Add HTML files"
+   Creates a commit with the staged files and the given message.
+
+10. git log --oneline
+    Displays the commit history in a compact format.
+
+11. git branch feature
+    Creates a new branch named feature.
+
+12. git switch feature
+    Switches from the current branch to the feature branch.
+
+13. git switch main
+    Switches back to the main branch.
+
+14. git merge feature
+    Merges the changes from the feature branch into the current branch.
+
+15. git log --oneline --graph --all
+    Displays the commit history of all branches in a graphical format.
+
+16. git check-ignore -v error.log temp/sample.txt
+    Checks which .gitignore rule excludes the specified files.
+
+17. git revert HEAD
+    Creates a new commit that reverses the changes introduced by the latest commit.
+
+18. git remote add origin <repository-url>
+    Connects the local repository to the remote GitHub repository.
+
+19. git remote -v
+    Displays the configured remote repository URLs.
+
+20. git push -u origin main
+    Pushes the main branch to GitHub and sets its upstream tracking branch.
+
+21. git push -u origin feature
+    Pushes the feature branch to GitHub and sets its upstream tracking branch.
+
+22. git branch -a
+    Displays all local and remote branches.
+
+23. git diff HEAD index.html
+    Displays changes in the working file compared with the latest commit.
+
+24. git diff --cached index.html
+    Displays changes staged for the next commit.
